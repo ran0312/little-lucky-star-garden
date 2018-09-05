@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>for in 和for of的区别</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var arr = [1,2,3,4,5];
+    for (const i in arr) { //更适合遍历对象
+        console.log('fin',i,arr[i]);
+    }
+    for (const j of arr) {
+        console.log('fof',j,arr[j]);
+    }
+</script>
+</html>
